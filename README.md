@@ -63,6 +63,14 @@ Skills always write from these templates to keep files consistent.
 - Codex writes files relative to repo root; keep the CLI opened from this folder.
 - When Codex offers to overwrite, choose append or version suffix to avoid data loss.
 
+## How to Use (Emoji Walkthrough)
+- 🚀 **Kick off onboarding**: Ask Codex, "Start COG onboarding." Codex will prompt for your profile, interests, and projects, then scaffold folders and starter notes.
+- 🧠 **Capture fast**: Say "Run braindump" whenever an idea pops up. Codex will ask short questions, then drop the note into the right braindump folder with the braindump template.
+- 📰 **Stay briefed**: Run "daily-brief" to get a 7-day-fresh news brief tied to your interests and watchlist. The UX is a Q&A flow that ends by writing a new dated brief in `01-daily/briefs/`.
+- 🔁 **Weekly reflection**: Trigger "weekly-checkin" at the end of the week. Codex walks you through wins, blockers, and next actions, then saves a dated weekly note in `01-daily/checkins/`.
+- 🔗 **Synthesize knowledge**: Use "knowledge-consolidation" when you have scattered notes. Codex will ask what to merge, summarize the threads, and save a synthesis in `05-knowledge/consolidated/` with cross-link prompts.
+- ✍️ **Edit freely**: All outputs are plain Markdown; open them in your editor or Obsidian to tweak formatting, add links, or rearrange sections.
+
 ## Sync & Backup
 - **Obsidian**: Open the repo folder as a vault for browsing.
 - **Git**: Commit to your own remote for history.

@@ -6,6 +6,6 @@
     "email": "tqhuy1991@gmail.com",
     "url": "https://github.com/huytieu"
   },
-  "description": "Codex-first second brain with Markdown skills for capture, briefing, reflection, and synthesis.",
-  "version": "2.0.0"
+  "description": "Codex-first second brain that ingests transcripts for daily recaps and meetings, routes todos, and keeps everything in Markdown.",
+  "version": "2.1.0"
 }

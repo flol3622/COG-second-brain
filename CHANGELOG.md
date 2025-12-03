@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0 - Transcript-first flows
+- Added daily recap and meeting capture skills to ingest audio/transcripts and route todos.
+- Introduced templates for daily recaps, meetings, and todo lists with seeded personal/work task files.
+- Updated docs and manifests to highlight transcript ingestion, task routing, and new vault layout folders.
+
 ## 2.0.0 - Codex-first rebuild
 - Rebuilt the vault layout around Codex CLI workflows and created the base folders.
 - Rewrote all skills for Codex 2.0 with guardrails and template-driven outputs.

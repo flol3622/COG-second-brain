@@ -8,8 +8,8 @@ COG is packaged as a Codex CLI plugin. Use this guide to publish or sideload it.
 
 ## Manifest Highlights
 - `name`: `cog-second-brain`
-- `version`: `2.0.0`
-- Skills: `onboarding`, `braindump`, `daily-brief`, `weekly-checkin`, `knowledge-consolidation`
+- `version`: `2.1.0`
+- Skills: `onboarding`, `daily-recap`, `meeting-capture`, `braindump`, `daily-brief`, `weekly-checkin`, `knowledge-consolidation`
 - Templates directory: `06-templates`
 - License: MIT
 

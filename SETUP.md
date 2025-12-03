@@ -1,6 +1,6 @@
 # Setup
 
-Follow this once to get a Codex-ready COG vault.
+Follow this once to get a Codex-ready COG vault tuned for transcripts.
 
 ## Requirements
 - [Codex CLI](https://platform.openai.com/) (required)
@@ -16,9 +16,11 @@ Follow this once to get a Codex-ready COG vault.
 2. Open the folder in Codex CLI and say **"Start COG onboarding"**.
 3. Answer the short questions (name, role, interests, sources, optional projects/watchlist).
 
-Onboarding will create the folder structure and seed files using the templates.
+Onboarding will create the folder structure, seed todo lists, and drop starter files using the templates.
 
 ## Daily Use
+- **Nightly recap:** "Run daily recap" → paste transcript → saves to `01-daily/logs/` and updates todo lists.
+- **Meetings:** "Log this meeting" → paste transcript → saves to `03-professional/meetings/` or project folders and routes tasks.
 - **Capture:** "Run braindump" → saves to personal/professional/project folders.
 - **Morning:** "Give me my daily brief" → writes to `01-daily/briefs/` with 7-day sources.
 - **Weekly:** "Do my weekly check-in" → writes to `01-daily/checkins/`.
@@ -36,3 +38,4 @@ Onboarding will create the folder structure and seed files using the templates.
 - Skill not found: verify `.codex/skills/` exists and you're in repo root.
 - Files in wrong place: rerun onboarding to recreate missing folders.
 - Brief has no sources: stories older than 7 days are intentionally excluded.
+- Tasks missing: ensure owners/due dates are spoken; Codex routes checkboxes into todo lists.

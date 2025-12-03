@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for improving COG. This project is intentionally small and Markdown-first. Please keep contributions aligned to Codex CLI usage.
+Thanks for improving COG. This project is intentionally small, Markdown-first, and transcript-friendly. Please keep contributions aligned to Codex CLI usage.
 
 ## Ground Rules
 - Keep skills minimal and transparent—no hidden prompts.

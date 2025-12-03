@@ -1,6 +1,6 @@
 {
   "name": "cog-second-brain",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Codex-first second brain built on Markdown, with skills for onboarding, capture, briefing, reflection, and synthesis.",
   "author": {
     "name": "Huy Tieu",
@@ -22,7 +22,9 @@
     "note-taking",
     "codex-cli",
     "braindump",
-    "daily-brief"
+    "daily-brief",
+    "transcripts",
+    "meeting-notes"
   ],
   "category": "productivity",
   "tags": [
@@ -38,6 +40,16 @@
       "name": "onboarding",
       "path": ".codex/skills/onboarding/SKILL.md",
       "description": "Stand up a Codex-native COG vault and seed profile, interests, and projects."
+    },
+    {
+      "name": "daily-recap",
+      "path": ".codex/skills/daily-recap/SKILL.md",
+      "description": "Ingest an end-of-day audio/transcript and route todos into personal/work/project lists."
+    },
+    {
+      "name": "meeting-capture",
+      "path": ".codex/skills/meeting-capture/SKILL.md",
+      "description": "Turn meeting audio/transcripts into structured notes, decisions, and routed tasks."
     },
     {
       "name": "braindump",

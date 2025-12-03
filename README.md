@@ -92,6 +92,17 @@ Skills always write from these templates to keep files consistent.
 - Mention project/customer names so tasks and meeting notes file into the right project folder.
 - Use owners and due dates in speech ("Alice to deliver by Friday") to improve task routing.
 
+### Transcribing audio with Codex CLI
+- Save your recording as `.m4a`, `.wav`, or `.mp3`.
+- Run a transcription locally:
+  ```bash
+  codex audio.transcriptions.create \
+    --model gpt-4o-transcribe \
+    --file path/to/recording.m4a \
+    --output transcript.txt
+  ```
+- Paste `transcript.txt` into **daily-recap** or **meeting-capture** when Codex prompts. Keep the file around so you can re-run skills or refile tasks without replaying audio.
+
 ## Sync & Backup
 - **Obsidian**: Open the repo folder as a vault for browsing.
 - **Git**: Commit to your own remote for history.

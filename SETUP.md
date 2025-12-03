@@ -26,6 +26,17 @@ Onboarding will create the folder structure, seed todo lists, and drop starter f
 - **Weekly:** "Do my weekly check-in" → writes to `01-daily/checkins/`.
 - **Monthly:** "Consolidate knowledge" → writes to `05-knowledge/consolidated/`.
 
+### Transcribe audio with Codex CLI
+- Save the recording as `.m4a`, `.wav`, or `.mp3`.
+- Convert it to text:
+  ```bash
+  codex audio.transcriptions.create \
+    --model gpt-4o-transcribe \
+    --file path/to/recording.m4a \
+    --output transcript.txt
+  ```
+- Paste the transcript into **daily-recap** or **meeting-capture** when Codex asks for it. Keep the transcript file so you can rerun skills without replaying the audio.
+
 ## Obsidian (optional)
 - Open the repo as a vault for browsing and linking.
 - Enable file watching if you edit from multiple devices.

@@ -1,0 +1,77 @@
+{
+  "name": "cog-second-brain",
+  "version": "2.0.0",
+  "description": "Codex-first second brain built on Markdown, with skills for onboarding, capture, briefing, reflection, and synthesis.",
+  "author": {
+    "name": "Huy Tieu",
+    "url": "https://github.com/huytieu"
+  },
+  "homepage": "https://github.com/huytieu/COG-second-brain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huytieu/COG-second-brain"
+  },
+  "license": "MIT",
+  "keywords": [
+    "second-brain",
+    "knowledge-management",
+    "obsidian",
+    "productivity",
+    "ai-agents",
+    "personal-intelligence",
+    "note-taking",
+    "codex-cli",
+    "braindump",
+    "daily-brief"
+  ],
+  "category": "productivity",
+  "tags": [
+    "knowledge-management",
+    "obsidian",
+    "second-brain",
+    "ai-agents",
+    "productivity",
+    "note-taking"
+  ],
+  "skills": [
+    {
+      "name": "onboarding",
+      "path": ".codex/skills/onboarding/SKILL.md",
+      "description": "Stand up a Codex-native COG vault and seed profile, interests, and projects."
+    },
+    {
+      "name": "braindump",
+      "path": ".codex/skills/braindump/SKILL.md",
+      "description": "Capture raw thoughts, classify domain, and file structured notes with actions."
+    },
+    {
+      "name": "daily-brief",
+      "path": ".codex/skills/daily-brief/SKILL.md",
+      "description": "Generate a 7-day-fresh intelligence brief tied to the user's interests and watchlist."
+    },
+    {
+      "name": "weekly-checkin",
+      "path": ".codex/skills/weekly-checkin/SKILL.md",
+      "description": "Run a weekly reflection across braindumps and briefs to spot patterns and plan next week."
+    },
+    {
+      "name": "knowledge-consolidation",
+      "path": ".codex/skills/knowledge-consolidation/SKILL.md",
+      "description": "Distill scattered notes into frameworks and cross-links."
+    }
+  ],
+  "metadata": {
+    "pluginRoot": ".",
+    "architecture": "codex-cli-skills",
+    "templates": "06-templates",
+    "directoryStructure": {
+      "00-inbox": "Profile and interests",
+      "01-daily": "Briefs and check-ins",
+      "02-personal": "Personal braindumps",
+      "03-professional": "Work braindumps and watchlist",
+      "04-projects": "Per-project notes",
+      "05-knowledge": "Syntheses, patterns, and timeline",
+      "06-templates": "All Markdown templates"
+    }
+  }
+}

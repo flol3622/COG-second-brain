@@ -94,12 +94,13 @@ Skills always write from these templates to keep files consistent.
 
 ### Transcribing audio with Codex CLI
 - Save your recording as `.m4a`, `.wav`, or `.mp3`.
-- Run a transcription locally:
+- Run a transcription locally (writes plain text to `transcript.txt`):
   ```bash
-  codex audio.transcriptions.create \
+  codex api audio.transcriptions.create \
     --model gpt-4o-transcribe \
-    --file path/to/recording.m4a \
-    --output transcript.txt
+    --input-file path/to/recording.m4a \
+    --response-format text \
+    > transcript.txt
   ```
 - Paste `transcript.txt` into **daily-recap** or **meeting-capture** when Codex prompts. Keep the file around so you can re-run skills or refile tasks without replaying audio.
 

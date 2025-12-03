@@ -28,12 +28,13 @@ Onboarding will create the folder structure, seed todo lists, and drop starter f
 
 ### Transcribe audio with Codex CLI
 - Save the recording as `.m4a`, `.wav`, or `.mp3`.
-- Convert it to text:
+- Convert it to text (streams plain text into `transcript.txt`):
   ```bash
-  codex audio.transcriptions.create \
+  codex api audio.transcriptions.create \
     --model gpt-4o-transcribe \
-    --file path/to/recording.m4a \
-    --output transcript.txt
+    --input-file path/to/recording.m4a \
+    --response-format text \
+    > transcript.txt
   ```
 - Paste the transcript into **daily-recap** or **meeting-capture** when Codex asks for it. Keep the transcript file so you can rerun skills without replaying the audio.
 
